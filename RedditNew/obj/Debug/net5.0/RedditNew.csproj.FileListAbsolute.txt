@@ -41,3 +41,8 @@ C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\RedditNew.csproj.Copy
 C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\Reddit.NET.dll
 C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\RestSharp.dll
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\RedditNew.MvcApplicationPartsAssemblyInfo.cs
