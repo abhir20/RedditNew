@@ -27,6 +27,8 @@ namespace RedditNew
         {
             services.AddControllersWithViews();
 
+            services.AddSingleton<RedditClient>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v2", new OpenApiInfo { Title = "RedditApi", Version = "v2" });

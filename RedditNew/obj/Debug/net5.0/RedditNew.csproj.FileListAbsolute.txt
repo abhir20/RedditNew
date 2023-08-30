@@ -46,4 +46,3 @@ C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\ref\RedditNew.dll
 C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\RedditNew.pdb
 C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\RedditNew.genruntimeconfig.cache
 C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\nunit.framework.dll
-C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\RedditNew.csprojAssemblyReference.cache
