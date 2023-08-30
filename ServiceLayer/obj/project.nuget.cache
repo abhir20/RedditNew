@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bzQ4rsuVZKto+TbJSGp58dl/oNZSi1dNft9z4Ox0L2ssl+BqGkcMxMIKKtHVTPHNNZLCh3pWkoagNzH78zWjfg==",
+  "dgSpecHash": "kKi80ZxCQjpDq1NE6zV0CFoMDWs539Y0Vvi1oI7oVIm7jR9gKG6tZqoUQt6V+X+in0rcXCPR6Vo8I+yUzwUoig==",
   "success": true,
   "projectFilePath": "C:\\Users\\abhin\\CODING\\RedditNew\\ServiceLayer\\ServiceLayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\reddit\\1.5.2\\reddit.1.5.2.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\restsharp\\106.6.9\\restsharp.106.6.9.nupkg.sha512"
+  ],
   "logs": []
 }

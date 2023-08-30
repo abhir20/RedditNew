@@ -13,4 +13,3 @@ C:\Users\abhin\CODING\RedditNew\DAL\obj\Debug\net5.0\DAL.dll
 C:\Users\abhin\CODING\RedditNew\DAL\obj\Debug\net5.0\ref\DAL.dll
 C:\Users\abhin\CODING\RedditNew\DAL\obj\Debug\net5.0\DAL.pdb
 C:\Users\abhin\CODING\RedditNew\DAL\obj\Debug\net5.0\DAL.genruntimeconfig.cache
-C:\Users\abhin\CODING\RedditNew\DAL\obj\Debug\net5.0\DAL.csprojAssemblyReference.cache
