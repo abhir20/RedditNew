@@ -1,0 +1,537 @@
+{
+  "version": 2,
+  "dgSpecHash": "1gO/WN6l1Worb+DIcK7+GWZC7HcerHHFQP+5K45oNaxlcv0LNeHI0uTEr8Zp/JJwFsQ5sIfxZZDYsQglNgT59w==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\abhin\\CODING\\RedditNew\\RedditTests\\RedditTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abhin\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.dotnet.internalabstractions\\1.0.0\\microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.net.test.sdk\\16.9.4\\microsoft.net.test.sdk.16.9.4.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.9.4\\microsoft.testplatform.objectmodel.16.9.4.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.testplatform.testhost\\16.9.4\\microsoft.testplatform.testhost.16.9.4.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.win32.registry\\4.3.0\\microsoft.win32.registry.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\nunit\\3.13.1\\nunit.3.13.1.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\nunit3testadapter\\3.17.0\\nunit3testadapter.3.17.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.componentmodel.eventbasedasync\\4.3.0\\system.componentmodel.eventbasedasync.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0\\system.componentmodel.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.componentmodel.typeconverter\\4.3.0\\system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.diagnostics.process\\4.3.0\\system.diagnostics.process.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.diagnostics.tools\\4.0.1\\system.diagnostics.tools.4.0.1.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.dynamic.runtime\\4.0.11\\system.dynamic.runtime.4.0.11.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.globalization.extensions\\4.3.0\\system.globalization.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.linq.expressions\\4.1.0\\system.linq.expressions.4.1.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.objectmodel\\4.0.12\\system.objectmodel.4.0.12.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.reflection.emit\\4.0.1\\system.reflection.emit.4.0.1.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.0.1\\system.reflection.emit.ilgeneration.4.0.1.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.reflection.emit.lightweight\\4.0.1\\system.reflection.emit.lightweight.4.0.1.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.runtime.serialization.primitives\\4.1.1\\system.runtime.serialization.primitives.4.1.1.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.threading.thread\\4.3.0\\system.threading.thread.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.threading.threadpool\\4.3.0\\system.threading.threadpool.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Collections 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Collections",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.ComponentModel 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.ComponentModel",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.ComponentModel.EventBasedAsync 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.ComponentModel.EventBasedAsync",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Diagnostics.Debug 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Diagnostics.Debug",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Diagnostics.Tools 4.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Diagnostics.Tools",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Dynamic.Runtime 4.0.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Dynamic.Runtime",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Globalization 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Globalization",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IO 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.IO",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Linq 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Linq",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Linq.Expressions 4.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Linq.Expressions",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.ObjectModel 4.0.12' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.ObjectModel",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Reflection",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.Emit 4.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Reflection.Emit",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.Emit.ILGeneration 4.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Reflection.Emit.ILGeneration",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.Emit.Lightweight 4.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Reflection.Emit.Lightweight",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.Extensions 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Reflection.Extensions",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.Primitives 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Reflection.Primitives",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Resources.ResourceManager 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Resources.ResourceManager",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Runtime",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime.Extensions 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Runtime.Extensions",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime.Handles 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Runtime.Handles",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime.InteropServices 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Runtime.InteropServices",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime.Serialization.Primitives 4.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Runtime.Serialization.Primitives",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Encoding 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Text.Encoding",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Encoding.Extensions 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Text.Encoding.Extensions",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.RegularExpressions 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Text.RegularExpressions",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Threading 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Threading",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Threading.Tasks 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Threading.Tasks",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Xml.ReaderWriter 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Xml.ReaderWriter",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Xml.XDocument 4.0.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Xml.XDocument",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.ComponentModel.TypeConverter 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.ComponentModel.TypeConverter 4.3.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.ComponentModel.TypeConverter",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.Runtime.InteropServices.RuntimeInformation 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.Runtime.InteropServices.RuntimeInformation 4.3.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.Runtime.InteropServices.RuntimeInformation",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.Threading.Thread 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.Threading.Thread 4.3.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - netcore50 (.NETCore,Version=v5.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.Threading.Thread",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.Xml.XmlDocument 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.Xml.XmlDocument 4.3.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.Xml.XmlDocument",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.Xml.XPath.XmlDocument 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.Xml.XPath.XmlDocument 4.3.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.Xml.XPath.XmlDocument",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.Diagnostics.Process 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.Diagnostics.Process 4.3.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.Diagnostics.Process",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.Collections.NonGeneric 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.Collections.NonGeneric 4.3.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.Collections.NonGeneric",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.Collections.Specialized 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.Collections.Specialized 4.3.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.Collections.Specialized",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.ComponentModel.Primitives 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.ComponentModel.Primitives 4.3.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.ComponentModel.Primitives",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.Reflection.TypeExtensions 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.Reflection.TypeExtensions 4.3.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.Reflection.TypeExtensions",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.Xml.XPath 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.Xml.XPath 4.3.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.Xml.XPath",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.AppContext 4.1.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.AppContext 4.1.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - netstandard (.NETStandard,Version=v0.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.AppContext",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.IO.FileSystem 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.IO.FileSystem 4.3.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.IO.FileSystem",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.IO.FileSystem.Primitives 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.IO.FileSystem.Primitives 4.3.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.IO.FileSystem.Primitives",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.Threading.ThreadPool 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.Threading.ThreadPool 4.3.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - netcore50 (.NETCore,Version=v5.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.Threading.ThreadPool",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.Reflection.Metadata 1.6.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.Reflection.Metadata 1.6.0 does not support any target frameworks.",
+      "libraryId": "System.Reflection.Metadata",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.Globalization.Extensions 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.Globalization.Extensions 4.3.0 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.Globalization.Extensions",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.Threading.Tasks.Extensions 4.3.0 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package System.Threading.Tasks.Extensions 4.3.0 does not support any target frameworks.",
+      "libraryId": "System.Threading.Tasks.Extensions",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
