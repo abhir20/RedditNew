@@ -1,0 +1,16 @@
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\bin\Debug\net5.0\ServiceLayer.exe
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\bin\Debug\net5.0\ServiceLayer.deps.json
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\bin\Debug\net5.0\ServiceLayer.runtimeconfig.json
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\bin\Debug\net5.0\ServiceLayer.runtimeconfig.dev.json
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\bin\Debug\net5.0\ServiceLayer.dll
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\bin\Debug\net5.0\ref\ServiceLayer.dll
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\bin\Debug\net5.0\ServiceLayer.pdb
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csprojAssemblyReference.cache
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\obj\Debug\net5.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfoInputs.cache
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfo.cs
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.CoreCompileInputs.cache
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\obj\Debug\net5.0\ServiceLayer.dll
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\obj\Debug\net5.0\ref\ServiceLayer.dll
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\obj\Debug\net5.0\ServiceLayer.pdb
+C:\Users\abhin\CODING\RedditNew\ServiceLayer\obj\Debug\net5.0\ServiceLayer.genruntimeconfig.cache

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditNew", "RedditNew.csproj", "{DBA801B5-69A4-4AE6-BB6C-EDDFA2AAE39E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditNew", "RedditNew.csproj", "{DBA801B5-69A4-4AE6-BB6C-EDDFA2AAE39E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", "{5C8318E5-DC78-4568-AE33-C3191EEAB854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLayer", "..\ServiceLayer\ServiceLayer.csproj", "{C6B752F0-D461-4C9A-9CA5-8BB232EEF21F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DBA801B5-69A4-4AE6-BB6C-EDDFA2AAE39E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBA801B5-69A4-4AE6-BB6C-EDDFA2AAE39E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBA801B5-69A4-4AE6-BB6C-EDDFA2AAE39E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C8318E5-DC78-4568-AE33-C3191EEAB854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C8318E5-DC78-4568-AE33-C3191EEAB854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C8318E5-DC78-4568-AE33-C3191EEAB854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C8318E5-DC78-4568-AE33-C3191EEAB854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B752F0-D461-4C9A-9CA5-8BB232EEF21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B752F0-D461-4C9A-9CA5-8BB232EEF21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B752F0-D461-4C9A-9CA5-8BB232EEF21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B752F0-D461-4C9A-9CA5-8BB232EEF21F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
