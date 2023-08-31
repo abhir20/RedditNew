@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abhin\\CODING\\RedditNew\\RedditNew\\RedditNew.csproj": {}
+    "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\RedditNew.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abhin\\CODING\\RedditNew\\RedditNew\\RedditNew.csproj": {
+    "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\RedditNew.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abhin\\CODING\\RedditNew\\RedditNew\\RedditNew.csproj",
+        "projectUniqueName": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\RedditNew.csproj",
         "projectName": "RedditNew",
-        "projectPath": "C:\\Users\\abhin\\CODING\\RedditNew\\RedditNew\\RedditNew.csproj",
+        "projectPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\RedditNew.csproj",
         "packagesPath": "C:\\Users\\abhin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abhin\\CODING\\RedditNew\\RedditNew\\obj\\",
+        "outputPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -53,6 +53,10 @@
               "target": "Package",
               "version": "[1.5.2, )"
             },
+            "Reddit.AuthTokenRetrieverLib": {
+              "target": "Package",
+              "version": "[1.5.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -76,10 +80,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -88,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

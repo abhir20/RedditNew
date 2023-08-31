@@ -1,0 +1,15 @@
+C:\Users\abhin\CODING\RedditNEW\Business\bin\Debug\net5.0\Business.exe
+C:\Users\abhin\CODING\RedditNEW\Business\bin\Debug\net5.0\Business.deps.json
+C:\Users\abhin\CODING\RedditNEW\Business\bin\Debug\net5.0\Business.runtimeconfig.json
+C:\Users\abhin\CODING\RedditNEW\Business\bin\Debug\net5.0\Business.runtimeconfig.dev.json
+C:\Users\abhin\CODING\RedditNEW\Business\bin\Debug\net5.0\Business.dll
+C:\Users\abhin\CODING\RedditNEW\Business\bin\Debug\net5.0\Business.pdb
+C:\Users\abhin\CODING\RedditNEW\Business\obj\Debug\net5.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abhin\CODING\RedditNEW\Business\obj\Debug\net5.0\Business.AssemblyInfoInputs.cache
+C:\Users\abhin\CODING\RedditNEW\Business\obj\Debug\net5.0\Business.AssemblyInfo.cs
+C:\Users\abhin\CODING\RedditNEW\Business\obj\Debug\net5.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\abhin\CODING\RedditNEW\Business\obj\Debug\net5.0\Business.dll
+C:\Users\abhin\CODING\RedditNEW\Business\obj\Debug\net5.0\refint\Business.dll
+C:\Users\abhin\CODING\RedditNEW\Business\obj\Debug\net5.0\Business.pdb
+C:\Users\abhin\CODING\RedditNEW\Business\obj\Debug\net5.0\Business.genruntimeconfig.cache
+C:\Users\abhin\CODING\RedditNEW\Business\obj\Debug\net5.0\ref\Business.dll

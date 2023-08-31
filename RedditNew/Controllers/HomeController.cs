@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace RedditNew.Controllers
@@ -13,14 +14,23 @@ namespace RedditNew.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        Uri baseAddress = new Uri("https://localhost:5001/api");
+
+        private readonly HttpClient _client;
         public HomeController(ILogger<HomeController> logger)
         {
+            _client = new HttpClient();
+            _client.BaseAddress = baseAddress;
             _logger = logger;
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
-            return View();
+            List<PostsModel> postList = new List<PostsModel>();
+            var response = _client.GetAsync(_client.BaseAddress + "/posts/Get");
+
+            return View(response);
         }
 
         public IActionResult Privacy()

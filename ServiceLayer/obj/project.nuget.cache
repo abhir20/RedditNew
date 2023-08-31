@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "kKi80ZxCQjpDq1NE6zV0CFoMDWs539Y0Vvi1oI7oVIm7jR9gKG6tZqoUQt6V+X+in0rcXCPR6Vo8I+yUzwUoig==",
+  "dgSpecHash": "GtKFeY6X8D3R1dceFR1Q2ZhokllMwwntFw63qbAgFz7rpgcq6rCNvozI2C3zGHgn7KbswH0idkzC19gM99NdUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abhin\\CODING\\RedditNew\\ServiceLayer\\ServiceLayer.csproj",
+  "projectFilePath": "C:\\Users\\abhin\\CODING\\RedditNEW\\ServiceLayer\\ServiceLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abhin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\abhin\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
     "C:\\Users\\abhin\\.nuget\\packages\\reddit\\1.5.2\\reddit.1.5.2.nupkg.sha512",
-    "C:\\Users\\abhin\\.nuget\\packages\\restsharp\\106.6.9\\restsharp.106.6.9.nupkg.sha512"
+    "C:\\Users\\abhin\\.nuget\\packages\\reddit.authtokenretrieverlib\\1.5.2\\reddit.authtokenretrieverlib.1.5.2.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\restsharp\\106.6.9\\restsharp.106.6.9.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\uhttpsharp.standard\\8.0.30703.1\\uhttpsharp.standard.8.0.30703.1.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "CumiycxVKLB4sogUNpI4FB0d1ETtfYgjN4CTIG/5Rw/qGgpepAGBpuD2c907pnON/c4MTj1dPFpa1VoKdlCOeg==",
+  "dgSpecHash": "taWIPx95o2l+FqMrDhulXeFvG3uNc/eYztJMURUUFRWT4Cnd7Y5uFOcsvbl6BMbMn61sbslYklo+HuR/7U6kZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abhin\\CODING\\RedditNew\\DAL\\DAL.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\abhin\\CODING\\RedditNEW\\DAL\\DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\reddit.authtokenretrieverlib\\1.5.2\\reddit.authtokenretrieverlib.1.5.2.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\restsharp\\106.6.9\\restsharp.106.6.9.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\uhttpsharp.standard\\8.0.30703.1\\uhttpsharp.standard.8.0.30703.1.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

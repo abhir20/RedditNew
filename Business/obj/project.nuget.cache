@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LF6Gjm6pPOK7q+y9pHwlOgq5wu8GslicqOXQdOLL2ScY+cVyX0H+loGBjVbGwnJc3nEBTZeS46qHxVhCUnkRhg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\abhin\\CODING\\RedditNEW\\Business\\Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

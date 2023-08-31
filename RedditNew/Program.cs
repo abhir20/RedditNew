@@ -2,19 +2,29 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Reddit.AuthTokenRetriever;
+using Reddit.AuthTokenRetriever.EventArgs;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 
 namespace RedditNew
 {
     public class Program
     {
+
+        
         public static void Main(string[] args)
         {
+
+
+
             CreateHostBuilder(args).Build().Run();
         }
+    
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
@@ -22,5 +32,8 @@ namespace RedditNew
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
+
+
     }
 }
