@@ -7,8 +7,53 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "DAL/1.0.0": {
+        "dependencies": {
+          "Reddit.AuthTokenRetrieverLib": "1.5.2"
+        },
         "runtime": {
           "DAL.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {},
+      "Newtonsoft.Json/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
+          }
+        }
+      },
+      "Reddit.AuthTokenRetrieverLib/1.5.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1",
+          "RestSharp": "106.6.9",
+          "uhttpsharp.Standard": "8.0.30703.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AuthTokenRetrieverLib.dll": {
+            "assemblyVersion": "1.5.2.0",
+            "fileVersion": "1.5.2.0"
+          }
+        }
+      },
+      "RestSharp/106.6.9": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.6.9.0",
+            "fileVersion": "106.6.9.0"
+          }
+        }
+      },
+      "uhttpsharp.Standard/8.0.30703.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/uhttpsharp.dll": {
+            "assemblyVersion": "8.0.30703.1",
+            "fileVersion": "8.0.30703.1"
+          }
         }
       }
     }
@@ -18,6 +63,41 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    },
+    "Reddit.AuthTokenRetrieverLib/1.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i4XY6tXhsXCCJ89FiYLqttAjwIOHiiF74361d5jUkRCGnSOHav02gtJfoMbbB4tiREOcf3u+Aca5wUCKsxoGmg==",
+      "path": "reddit.authtokenretrieverlib/1.5.2",
+      "hashPath": "reddit.authtokenretrieverlib.1.5.2.nupkg.sha512"
+    },
+    "RestSharp/106.6.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/IAQTwlnlQcjlIyvelf+rhQcCRPy/r/0MftpNbff/D7PZVnmVXE4AnHk/F4NJJJEZbI4M+QTglB+xFkAyzr+9A==",
+      "path": "restsharp/106.6.9",
+      "hashPath": "restsharp.106.6.9.nupkg.sha512"
+    },
+    "uhttpsharp.Standard/8.0.30703.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-37cm93avVmnSH8n8W2YzXyhS0U4rfyAwTvwxSEeWp+uvsdegfCpK8gf7apENUymCgNnBbrYPRNsww84pM2dWKw==",
+      "path": "uhttpsharp.standard/8.0.30703.1",
+      "hashPath": "uhttpsharp.standard.8.0.30703.1.nupkg.sha512"
     }
   }
 }

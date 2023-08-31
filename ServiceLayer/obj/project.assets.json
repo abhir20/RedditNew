@@ -11,13 +11,17 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Reddit/1.5.2": {
@@ -28,19 +32,54 @@
           "RestSharp": "106.6.9"
         },
         "compile": {
-          "lib/netstandard2.0/Reddit.NET.dll": {}
+          "lib/netstandard2.0/Reddit.NET.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Reddit.NET.dll": {}
+          "lib/netstandard2.0/Reddit.NET.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Reddit.AuthTokenRetrieverLib/1.5.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1",
+          "RestSharp": "106.6.9",
+          "uhttpsharp.Standard": "8.0.30703.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/AuthTokenRetrieverLib.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AuthTokenRetrieverLib.dll": {}
         }
       },
       "RestSharp/106.6.9": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/RestSharp.dll": {}
+          "lib/netstandard2.0/RestSharp.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/RestSharp.dll": {}
+          "lib/netstandard2.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "uhttpsharp.Standard/8.0.30703.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "Newtonsoft.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/uhttpsharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/uhttpsharp.dll": {}
         }
       }
     }
@@ -114,33 +153,42 @@
         "version.txt"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+    "Newtonsoft.Json/12.0.1": {
+      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/12.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.pdb",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.pdb",
         "lib/net35/Newtonsoft.Json.xml",
         "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.pdb",
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.pdb",
         "lib/net45/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.pdb",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.pdb",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.pdb",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.pdb",
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.pdb",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.12.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec"
       ]
     },
@@ -157,6 +205,18 @@
         "reddit.nuspec"
       ]
     },
+    "Reddit.AuthTokenRetrieverLib/1.5.2": {
+      "sha512": "i4XY6tXhsXCCJ89FiYLqttAjwIOHiiF74361d5jUkRCGnSOHav02gtJfoMbbB4tiREOcf3u+Aca5wUCKsxoGmg==",
+      "type": "package",
+      "path": "reddit.authtokenretrieverlib/1.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/AuthTokenRetrieverLib.dll",
+        "reddit.authtokenretrieverlib.1.5.2.nupkg.sha512",
+        "reddit.authtokenretrieverlib.nuspec"
+      ]
+    },
     "RestSharp/106.6.9": {
       "sha512": "/IAQTwlnlQcjlIyvelf+rhQcCRPy/r/0MftpNbff/D7PZVnmVXE4AnHk/F4NJJJEZbI4M+QTglB+xFkAyzr+9A==",
       "type": "package",
@@ -171,11 +231,25 @@
         "restsharp.106.6.9.nupkg.sha512",
         "restsharp.nuspec"
       ]
+    },
+    "uhttpsharp.Standard/8.0.30703.1": {
+      "sha512": "37cm93avVmnSH8n8W2YzXyhS0U4rfyAwTvwxSEeWp+uvsdegfCpK8gf7apENUymCgNnBbrYPRNsww84pM2dWKw==",
+      "type": "package",
+      "path": "uhttpsharp.standard/8.0.30703.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/netstandard2.0/uhttpsharp.dll",
+        "uhttpsharp.standard.8.0.30703.1.nupkg.sha512",
+        "uhttpsharp.standard.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Reddit >= 1.5.2"
+      "Reddit >= 1.5.2",
+      "Reddit.AuthTokenRetrieverLib >= 1.5.2"
     ]
   },
   "packageFolders": {
@@ -186,11 +260,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abhin\\CODING\\RedditNew\\ServiceLayer\\ServiceLayer.csproj",
+      "projectUniqueName": "C:\\Users\\abhin\\CODING\\RedditNEW\\ServiceLayer\\ServiceLayer.csproj",
       "projectName": "ServiceLayer",
-      "projectPath": "C:\\Users\\abhin\\CODING\\RedditNew\\ServiceLayer\\ServiceLayer.csproj",
+      "projectPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\ServiceLayer\\ServiceLayer.csproj",
       "packagesPath": "C:\\Users\\abhin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abhin\\CODING\\RedditNew\\ServiceLayer\\obj\\",
+      "outputPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\ServiceLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -227,6 +301,10 @@
           "Reddit": {
             "target": "Package",
             "version": "[1.5.2, )"
+          },
+          "Reddit.AuthTokenRetrieverLib": {
+            "target": "Package",
+            "version": "[1.5.2, )"
           }
         },
         "imports": [
@@ -235,16 +313,23 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.17, 5.0.17]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

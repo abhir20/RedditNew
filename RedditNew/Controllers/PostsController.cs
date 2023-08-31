@@ -20,21 +20,21 @@ namespace RedditNew.Controllers
 
         static string appId = "77Vhm2YGgk703wHWBmX9ig";
         static string refreshToken = "760730588485-UfbKjs0RFOSqsyz-_rEG3iHHtgBROg";
-        static string accessToken = "eyJhbGciOiJSUzI1NiIsImtpZCI6IlNIQTI1NjpzS3dsMnlsV0VtMjVmcXhwTU40cWY4MXE2OWFFdWFyMnpLMUdhVGxjdWNZIiwidHlwIjoiSldUIn0.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjkzNDI2MTE3Ljk5NzUwNSwiaWF0IjoxNjkzMzM5NzE3Ljk5NzUwNSwianRpIjoiQmFkbDNiZDF4RUlQdkRpcHVZOGNoZUtzeWJvdS1BIiwiY2lkIjoiNzdWaG0yWUdnazcwM3dIV0JtWDlpZyIsImxpZCI6InQyXzlwaDNjbXJwIiwiYWlkIjoidDJfOXBoM2NtcnAiLCJsY2EiOjE2MTAwMzUzMTMwMDAsInNjcCI6ImVKeUtWdEpTaWdVRUFBRF9fd056QVNjIiwiZmxvIjo5fQ.kkMKzKh7BtOc9rnjWPn-kurRvU_fgD2U4KBVCePxuiX8YgTzYpBOEUOWp2dNsMLSPxzfK6z5ZOmPsr92Z4fVweDzvUPtG9jN-YvUkVy8EUm-CPGo6SzLBjzGpGOM69SI_yxlwrA1vWAluyv9bOaxALJTiO5AAtyC3mlhBdW9V-AYEr_cnCyivN9rYP4ilfNDBYKRuKN31BSLkg3uDfEcFGQ-df4djhbUyvEJtYyM2h2_geqJB9FBzzsZE7ETglsN8GNSohcRXjBJkULqnKbk92HQwoBmVxPjQHJzf-smwWK7JuKgZZAKExmtMFz3r2nCac33QRmzBuyZMzS8W2TZ-Q";
-
+        
+        static string accessToken = "eyJhbGciOiJSUzI1NiIsImtpZCI6IlNIQTI1NjpzS3dsMnlsV0VtMjVmcXhwTU40cWY4MXE2OWFFdWFyMnpLMUdhVGxjdWNZIiwidHlwIjoiSldUIn0.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjkzNTQ0NjkzLjg3MjYsImlhdCI6MTY5MzQ1ODI5My44NzI2LCJqdGkiOiJEb2FOYUtXXzZRVURFT3hjMnVqdUV1UUpPRFJKbHciLCJjaWQiOiI3N1ZobTJZR2drNzAzd0hXQm1YOWlnIiwibGlkIjoidDJfOXBoM2NtcnAiLCJhaWQiOiJ0Ml85cGgzY21ycCIsImxjYSI6MTYxMDAzNTMxMzAwMCwic2NwIjoiZUp5S1Z0SlNpZ1VFQUFEX193TnpBU2MiLCJmbG8iOjl9.cIzdZ2QUmdUniLzf9fYpl-jJS6S2vF-ru3tt_2Le6OvptojGD3cBmn0EnUMr5_P0Iu4CMhcJpyCAQ3Xvivgz7A2WypNnogNejsD65tli2nVkN4QvrD_pNepvtY6r9q25fPvP2piF8mPYDNqrnODsvVargq4XLUYLLTfr3YGav0KC0fZmZx7dTSGGYuujROClP-AFhto3iIav5QCRpbhvXZZs5idLU9nRof3Fik9ToNSGwP34RYFqnX72sH1e8st9kCDY4w5uKgfsn0p1v4Rd0lvS9gANDuY-TLOA5XPQt5PUo7W7fGQgye7JIIhQ62-vOPmZSjowoQcXbKYl5vhXTQ";
         private readonly RedditClient reddit = new RedditClient(appId: appId, refreshToken: refreshToken, accessToken: accessToken);
-       
+
 
         // Initialize the API library instance.  
-       // RedditClient reddit = new RedditClient(appId: appId, refreshToken: refreshToken, accessToken: accessToken);
+        // RedditClient reddit = new RedditClient(appId: appId, refreshToken: refreshToken, accessToken: accessToken);
 
         [HttpGet]
-        public async Task<IActionResult> Get(string name)
+        public IActionResult Get(string name)
         {
             try
             {
                 Subreddit subName = reddit.Subreddit(name);
-                Subreddit funny = reddit.Subreddit("funny");
+               // Subreddit funny = reddit.Subreddit("funny");
 
                 // Before monitoring, let's grab the posts once so we have a point of comparison when identifying new posts that come in. 
 
@@ -53,7 +53,7 @@ namespace RedditNew.Controllers
                 }
                 subName.Posts.GetNew();
 
-                Console.WriteLine("Monitoring funny for new posts....");
+                Console.WriteLine("Monitoring subreddit for new posts....");
 
                 subName.Posts.NewUpdated += C_NewPostsUpdated;
                 subName.Posts.MonitorNew();  // Toggle on.
@@ -78,6 +78,7 @@ namespace RedditNew.Controllers
             }
         }
 
+
         ////To get the Users with most posts
         //[HttpGet("author")]
         //public async Task<IActionResult> GetUserWithMostPosts(string name)
@@ -97,7 +98,7 @@ namespace RedditNew.Controllers
         //      //  IList<PostsModel> topPostResponse = new List<PostsModel>();
         //        //Console.WriteLine("Top Posts with the high UpVotes :" + subName.Posts.Top.ToList());
 
-                
+
         //            return Ok(allPosts);
         //        //else
         //        //    return NotFound();

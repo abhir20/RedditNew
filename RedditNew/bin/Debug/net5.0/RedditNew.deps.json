@@ -35,6 +35,7 @@
         "dependencies": {
           "NUnit": "3.13.3",
           "Reddit": "1.5.2",
+          "Reddit.AuthTokenRetrieverLib": "1.5.2",
           "Swashbuckle.AspNetCore": "6.5.0",
           "Swashbuckle.AspNetCore.Swagger": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "6.5.0",
@@ -349,11 +350,11 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.0.2.21924"
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
           }
         },
         "compile": {
@@ -377,7 +378,7 @@
       "Reddit/1.5.2": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
-          "Newtonsoft.Json": "11.0.2",
+          "Newtonsoft.Json": "12.0.1",
           "RestSharp": "106.6.9"
         },
         "runtime": {
@@ -388,6 +389,22 @@
         },
         "compile": {
           "lib/netstandard2.0/Reddit.NET.dll": {}
+        }
+      },
+      "Reddit.AuthTokenRetrieverLib/1.5.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1",
+          "RestSharp": "106.6.9",
+          "uhttpsharp.Standard": "8.0.30703.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AuthTokenRetrieverLib.dll": {
+            "assemblyVersion": "1.5.2.0",
+            "fileVersion": "1.5.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AuthTokenRetrieverLib.dll": {}
         }
       },
       "RestSharp/106.6.9": {
@@ -446,6 +463,21 @@
         },
         "compile": {
           "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        }
+      },
+      "uhttpsharp.Standard/8.0.30703.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/uhttpsharp.dll": {
+            "assemblyVersion": "8.0.30703.1",
+            "fileVersion": "8.0.30703.1"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/uhttpsharp.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2189,12 +2221,12 @@
       "path": "netstandard.library/2.0.0",
       "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
     },
-    "Newtonsoft.Json/11.0.2": {
+    "Newtonsoft.Json/12.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
-      "path": "newtonsoft.json/11.0.2",
-      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
     },
     "NUnit/3.13.3": {
       "type": "package",
@@ -2209,6 +2241,13 @@
       "sha512": "sha512-a8fLFxuSBG/NANlcdj6tmeAS1gnZNV+0HesL3bEvnVBimiE7+MQGi9AMcIq8AFAGY2Kv21p369NZgadD2HEMKA==",
       "path": "reddit/1.5.2",
       "hashPath": "reddit.1.5.2.nupkg.sha512"
+    },
+    "Reddit.AuthTokenRetrieverLib/1.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i4XY6tXhsXCCJ89FiYLqttAjwIOHiiF74361d5jUkRCGnSOHav02gtJfoMbbB4tiREOcf3u+Aca5wUCKsxoGmg==",
+      "path": "reddit.authtokenretrieverlib/1.5.2",
+      "hashPath": "reddit.authtokenretrieverlib.1.5.2.nupkg.sha512"
     },
     "RestSharp/106.6.9": {
       "type": "package",
@@ -2244,6 +2283,13 @@
       "sha512": "sha512-OvbvxX+wL8skxTBttcBsVxdh73Fag4xwqEU2edh4JMn7Ws/xJHnY/JB1e9RoCb6XpDxUF3hD9A0Z1lEUx40Pfw==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.5.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    },
+    "uhttpsharp.Standard/8.0.30703.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-37cm93avVmnSH8n8W2YzXyhS0U4rfyAwTvwxSEeWp+uvsdegfCpK8gf7apENUymCgNnBbrYPRNsww84pM2dWKw==",
+      "path": "uhttpsharp.standard/8.0.30703.1",
+      "hashPath": "uhttpsharp.standard.8.0.30703.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",

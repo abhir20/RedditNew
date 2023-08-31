@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "XAnBc0luFF5iUW/xFR+q0Wme6h3sSY+z39eefzbksEGmlgNHSHWeJTBLcIzY+MwfoqhCV+oJt4sGuD8WGAq3rw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\abhin\\CODING\\RedditNEW\\AuthenticationTokenRetriever\\AuthenticationTokenRetriever.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\reddit\\1.5.2\\reddit.1.5.2.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\reddit.authtokenretrieverlib\\1.5.2\\reddit.authtokenretrieverlib.1.5.2.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\restsharp\\106.6.9\\restsharp.106.6.9.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\uhttpsharp.standard\\8.0.30703.1\\uhttpsharp.standard.8.0.30703.1.nupkg.sha512"
+  ],
+  "logs": []
+}

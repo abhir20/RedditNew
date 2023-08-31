@@ -5,7 +5,6 @@ C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\RedditNew.deps.json
 C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\RedditNew.runtimeconfig.json
 C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\RedditNew.runtimeconfig.dev.json
 C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\RedditNew.dll
-C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\ref\RedditNew.dll
 C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\RedditNew.pdb
 C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\RedditNew.Views.dll
 C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\RedditNew.Views.pdb
@@ -25,7 +24,6 @@ C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\RedditNew.MvcApplicat
 C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\RedditNew.RazorAssemblyInfo.cache
 C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\RedditNew.RazorAssemblyInfo.cs
 C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\staticwebassets\RedditNew.StaticWebAssets.Manifest.cache
-C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\staticwebassets\RedditNew.StaticWebAssets.xml
 C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\scopedcss\bundle\RedditNew.styles.css
 C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\RedditNew.TagHelpers.input.cache
 C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\RedditNew.TagHelpers.output.cache
@@ -46,3 +44,13 @@ C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\ref\RedditNew.dll
 C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\RedditNew.pdb
 C:\Users\abhin\CODING\RedditNew\RedditNew\obj\Debug\net5.0\RedditNew.genruntimeconfig.cache
 C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\nunit.framework.dll
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\AuthTokenRetrieverLib.dll
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net5.0\uhttpsharp.dll
+C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net5.0\RedditNew.csproj.AssemblyReference.cache
+C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net5.0\staticwebassets\RedditNew.StaticWebAssets.Pack.cache
+C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net5.0\staticwebassets\msbuild.RedditNew.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net5.0\staticwebassets\msbuild.build.RedditNew.props
+C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.RedditNew.props
+C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.RedditNew.props
+C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net5.0\Razor\Views\SubredditPosts.cshtml.g.cs
+C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net5.0\refint\RedditNew.dll
