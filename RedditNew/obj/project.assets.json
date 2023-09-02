@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -154,12 +154,12 @@
           "Microsoft.OpenApi": "1.2.3"
         },
         "compile": {
-          "lib/net5.0/Swashbuckle.AspNetCore.Swagger.dll": {
+          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net5.0/Swashbuckle.AspNetCore.Swagger.dll": {
+          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -173,12 +173,12 @@
           "Swashbuckle.AspNetCore.Swagger": "6.5.0"
         },
         "compile": {
-          "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -186,12 +186,12 @@
       "Swashbuckle.AspNetCore.SwaggerUI/6.5.0": {
         "type": "package",
         "compile": {
-          "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -210,6 +210,20 @@
         },
         "runtime": {
           "lib/netstandard2.0/uhttpsharp.dll": {}
+        }
+      },
+      "RedditService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Reddit": "1.5.2",
+          "Reddit.AuthTokenRetrieverLib": "1.5.2"
+        },
+        "compile": {
+          "bin/placeholder/RedditService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RedditService.dll": {}
         }
       }
     }
@@ -881,13 +895,19 @@
         "uhttpsharp.standard.8.0.30703.1.nupkg.sha512",
         "uhttpsharp.standard.nuspec"
       ]
+    },
+    "RedditService/1.0.0": {
+      "type": "project",
+      "path": "../ServiceLayer/RedditService.csproj",
+      "msbuildProject": "../ServiceLayer/RedditService.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "NUnit >= 3.13.3",
       "Reddit >= 1.5.2",
       "Reddit.AuthTokenRetrieverLib >= 1.5.2",
+      "RedditService >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "Swashbuckle.AspNetCore.Swagger >= 6.5.0",
       "Swashbuckle.AspNetCore.SwaggerGen >= 6.5.0",
@@ -902,9 +922,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\RedditNew.csproj",
-      "projectName": "RedditNew",
-      "projectPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\RedditNew.csproj",
+      "projectUniqueName": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\RedditNew.Application.csproj",
+      "projectName": "RedditNew.Application",
+      "projectPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\RedditNew.Application.csproj",
       "packagesPath": "C:\\Users\\abhin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\obj\\",
       "projectStyle": "PackageReference",
@@ -918,16 +938,20 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "projectReferences": {}
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\abhin\\CODING\\RedditNEW\\ServiceLayer\\RedditService.csproj": {
+              "projectPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\ServiceLayer\\RedditService.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -937,8 +961,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "NUnit": {
             "target": "Package",
@@ -980,12 +1004,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.17, 5.0.17]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

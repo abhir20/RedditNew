@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/bWHYKcp5q3+URJPrlLxCGngp1fjnYrmhfIGgD0cTLejSPYFn1BsC4jN/8ocsvQJMDTmcs1He1i1t0UAD1myaw==",
+  "dgSpecHash": "tibbYRk14hJb8KjNzhCtXdkq5Xjr24/ROK8rg9pUVyYLv16RpI9eTjie4C1nC40dAf6mXm56gMXZ2h4HdE3EsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\RedditNew.csproj",
+  "projectFilePath": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\RedditNew.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abhin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\abhin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
@@ -18,8 +18,7 @@
     "C:\\Users\\abhin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\abhin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\abhin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
-    "C:\\Users\\abhin\\.nuget\\packages\\uhttpsharp.standard\\8.0.30703.1\\uhttpsharp.standard.8.0.30703.1.nupkg.sha512",
-    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+    "C:\\Users\\abhin\\.nuget\\packages\\uhttpsharp.standard\\8.0.30703.1\\uhttpsharp.standard.8.0.30703.1.nupkg.sha512"
   ],
   "logs": []
 }

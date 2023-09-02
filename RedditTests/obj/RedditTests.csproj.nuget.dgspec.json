@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abhin\\CODING\\RedditNew\\RedditTests\\RedditTests.csproj": {}
+    "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditTests\\RedditTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abhin\\CODING\\RedditNew\\RedditTests\\RedditTests.csproj": {
+    "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditTests\\RedditTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abhin\\CODING\\RedditNew\\RedditTests\\RedditTests.csproj",
+        "projectUniqueName": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditTests\\RedditTests.csproj",
         "projectName": "RedditTests",
-        "projectPath": "C:\\Users\\abhin\\CODING\\RedditNew\\RedditTests\\RedditTests.csproj",
+        "projectPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditTests\\RedditTests.csproj",
         "packagesPath": "C:\\Users\\abhin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abhin\\CODING\\RedditNew\\RedditTests\\obj\\",
+        "outputPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -23,15 +23,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -42,33 +42,16 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.9.4, )"
-            },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.13.1, )"
-            },
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[3.17.0, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[3.0.2, )"
-            }
-          },
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -77,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
