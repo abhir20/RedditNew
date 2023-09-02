@@ -54,3 +54,6 @@ C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net5.0\staticwebassets\msbui
 C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.RedditNew.props
 C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net5.0\Razor\Views\SubredditPosts.cshtml.g.cs
 C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net5.0\refint\RedditNew.dll
+C:\Users\abhin\CODING\RedditNEW\RedditNew\bin\Debug\net5.0\Reddittests\packages.config
+C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net5.0\RedditNew.Reddittests.My_Project.Resources.resources
+C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net5.0\RedditNew.csproj.GenerateResource.cache
