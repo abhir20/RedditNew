@@ -1,8 +1,12 @@
 ﻿using Reddit.Controllers.Structures;
 using Reddit.Controllers;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace RedditNew.Application.Features.Response
+namespace RedditService.Features.Response
 {
     public sealed record PostResponse
     {

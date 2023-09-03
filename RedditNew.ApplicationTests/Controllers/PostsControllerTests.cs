@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using RedditNew.Application.Features.Response;
 using RedditNew.ApplicationTests;
 using RedditNew.Controllers;
 using ServiceLayer.Implementation;
@@ -15,20 +16,14 @@ namespace RedditNew.Controllers.Tests
     public class PostsControllerTests 
     {
         [TestMethod]
-        public void GetAllTopPosts_ShouldReturnAllTopPosts()
+        public async Task GetAllTopPosts_ShouldReturnAllTopPosts()
         {
             RedditClientService redditCliemtService = new RedditClientService();
             var controller = new PostsController(redditCliemtService);
 
-            var result = controller.GetAll("funny",default);
-            Assert.AreEqual(result, typeof(NotFoundResult));
-
-
-            //var testPosts = GetTestProducts();
-            //var controller = new SimpleProductController(testProducts);
-
-            //var result = controller.GetAllProducts() as List<Product>;
-            //Assert.AreEqual(testProducts.Count, result.Count);
+            var result = await controller.GetAll("funny",default);
+            Assert.IsInstanceOfType(result, typeof(Microsoft.AspNetCore.Mvc.OkObjectResult));
         }
+
     }
 }

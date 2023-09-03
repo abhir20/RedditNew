@@ -1,7 +1,7 @@
 ﻿using Reddit;
 using Reddit.Controllers;
 using Reddit.Controllers.EventArgs;
-using RedditNew.Application.Features.Response;
+using RedditService.Features.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,7 +40,7 @@ namespace ServiceLayer.Implementation
                 //var top = Task.Run()
                 //var topPosts =  GetTopPosts(subName);
                 var topPosts = subName.Posts.Top.ToList();
-                Console.WriteLine("Top Posts with the high UpVotes :" + subName.Posts.Top.ToList());
+              //  Console.WriteLine("Top Posts with the high UpVotes :" + subName.Posts.Top.ToList());
 
                 await Task.Run(() =>
                 {
@@ -58,7 +58,7 @@ namespace ServiceLayer.Implementation
 
                 subName.Posts.GetNew();
 
-                Console.WriteLine("Monitoring subreddit for new posts....");
+                //Console.WriteLine("Monitoring subreddit for new posts....");
 
                 //subName.Posts.NewUpdated += C_NewPostsUpdated;
                 //subName.Posts.MonitorNew();  // Toggle on.
