@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LF6Gjm6pPOK7q+y9pHwlOgq5wu8GslicqOXQdOLL2ScY+cVyX0H+loGBjVbGwnJc3nEBTZeS46qHxVhCUnkRhg==",
+  "dgSpecHash": "8C3ZdgFA6dIbyHX49bp7fk2VTrQGSa3Dhxe8YILfoctmcn3CXlKj1o0k1LLd5Dn1dqT3iaDH0Undk63lsVj7BQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abhin\\CODING\\RedditNEW\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\abhin\\CODING\\RedditNew\\Business\\Business.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\abhin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+    "C:\\Users\\abhin\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.reflection.metadata\\7.0.2\\system.reflection.metadata.7.0.2.nupkg.sha512",
+    "C:\\Users\\abhin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

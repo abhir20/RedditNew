@@ -9,7 +9,8 @@
       "AuthenticationTokenRetriever/1.0.0": {
         "dependencies": {
           "Reddit": "1.5.2",
-          "Reddit.AuthTokenRetrieverLib": "1.5.2"
+          "Reddit.AuthTokenRetrieverLib": "1.5.2",
+          "System.Reflection.Metadata": "7.0.2"
         },
         "runtime": {
           "AuthenticationTokenRetriever.dll": {}
@@ -58,6 +59,29 @@
           }
         }
       },
+      "System.Collections.Immutable/7.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Collections.Immutable.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Reflection.Metadata/7.0.2": {
+        "dependencies": {
+          "System.Collections.Immutable": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Reflection.Metadata.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.723.27404"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "uhttpsharp.Standard/8.0.30703.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
@@ -112,6 +136,27 @@
       "sha512": "sha512-/IAQTwlnlQcjlIyvelf+rhQcCRPy/r/0MftpNbff/D7PZVnmVXE4AnHk/F4NJJJEZbI4M+QTglB+xFkAyzr+9A==",
       "path": "restsharp/106.6.9",
       "hashPath": "restsharp.106.6.9.nupkg.sha512"
+    },
+    "System.Collections.Immutable/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dQPcs0U1IKnBdRDBkrCTi1FoajSTBzLcVTpjO4MBCMC7f4pDOIPzgBoX8JjG7X6uZRJ8EBxsi8+DR1JuwjnzOQ==",
+      "path": "system.collections.immutable/7.0.0",
+      "hashPath": "system.collections.immutable.7.0.0.nupkg.sha512"
+    },
+    "System.Reflection.Metadata/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eDRR3/gdnAx0lRhZssc3y32+iCalFgQzaw/5ZNtqtkZ1hMnRFvazcuojYeRo0MH1DrnBAH4rrwJgeXc2KfkP+A==",
+      "path": "system.reflection.metadata/7.0.2",
+      "hashPath": "system.reflection.metadata.7.0.2.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
     "uhttpsharp.Standard/8.0.30703.1": {
       "type": "package",

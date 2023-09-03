@@ -27,9 +27,13 @@ namespace RedditNew
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            
 
             services.AddTransient<IRedditClientService, RedditClientService>();
+
+            services.AddServerSideBlazor();
+
+            services.AddControllersWithViews();
 
             services.AddSingleton<RedditClient>();
 
@@ -74,6 +78,7 @@ namespace RedditNew
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapBlazorHub();
             });
         }
     }

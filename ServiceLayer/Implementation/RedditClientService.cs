@@ -18,8 +18,7 @@ namespace ServiceLayer.Implementation
 
         static string appId = "77Vhm2YGgk703wHWBmX9ig";
         static string refreshToken = "760730588485-UfbKjs0RFOSqsyz-_rEG3iHHtgBROg";
-        
-        static string accessToken = "eyJhbGciOiJSUzI1NiIsImtpZCI6IlNIQTI1NjpzS3dsMnlsV0VtMjVmcXhwTU40cWY4MXE2OWFFdWFyMnpLMUdhVGxjdWNZIiwidHlwIjoiSldUIn0.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjkzNzAzODgzLjkwNDQ0OSwiaWF0IjoxNjkzNjE3NDgzLjkwNDQ0OSwianRpIjoiYzVqeVlvZ0xtVUxQOVJYVTBFbmpiUnBFc0VNdzJnIiwiY2lkIjoiNzdWaG0yWUdnazcwM3dIV0JtWDlpZyIsImxpZCI6InQyXzlwaDNjbXJwIiwiYWlkIjoidDJfOXBoM2NtcnAiLCJsY2EiOjE2MTAwMzUzMTMwMDAsInNjcCI6ImVKeUtWdEpTaWdVRUFBRF9fd056QVNjIiwiZmxvIjo5fQ.Wfz14dc05a1cD2-vhCk8m_CmQtQ1g0HDRPmd__aUO42MEW6M9HRm3Dk4vmJDYnxKWuOUF5po1sn9Mv2SbEneoRmal7yPvqcejxAfxwAVkueLR5-Ws7R3FDHSwlPRfza7HnodPn3jfwCMLUttGHWJ-57eOVMNLNWkVensLjGEyewskiavC8TLdHzVr6ZdHeP3EGzD5VyhxbeLdDUUuksYPQwL8PNPwRlo5DjSni5_9eZL02Ub3SLvPYphfNRPYe5537jif6PKX_nrnkB4x7K3X1Dq5iItQAXNMFmLqq_vMNeJqcbOB8BP9jIfJPkXY3zQjYqiJ10aZFSPJeSxTvrXqg";
+        static string accessToken = "eyJhbGciOiJSUzI1NiIsImtpZCI6IlNIQTI1NjpzS3dsMnlsV0VtMjVmcXhwTU40cWY4MXE2OWFFdWFyMnpLMUdhVGxjdWNZIiwidHlwIjoiSldUIn0.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjkzNzk0Njc5Ljc3NTA3NCwiaWF0IjoxNjkzNzA4Mjc5Ljc3NTA3NCwianRpIjoibnBKVi1uRVFXbFdTTkdqLXdydUNuV0hPNGNzM19nIiwiY2lkIjoiNzdWaG0yWUdnazcwM3dIV0JtWDlpZyIsImxpZCI6InQyXzlwaDNjbXJwIiwiYWlkIjoidDJfOXBoM2NtcnAiLCJsY2EiOjE2MTAwMzUzMTMwMDAsInNjcCI6ImVKeUtWdEpTaWdVRUFBRF9fd056QVNjIiwiZmxvIjo5fQ.UHpxfsGcSHnGphYftyAEIgr7ebRDcgEje0JSkb-ba-Iu88isAFq4qlkcf3ecbWLD1b-0kFtSac82i-0fON4s6UhSM3woTHb2p5-boxQUghFPkQ9_3MZyRckS2xYlNYQXVpotuWfW9d2edzm3p14jwcBr0_rUPTES2XYTIAilMF6xaJJKxQgbPYOPlsxNM5KtJhMVz5acdiAAHeP6a_s-DZ_N5rsUrAW0ZtmnsHZDsLZ1-jjaF5I8BSz407UIU1b49f4WQSO4TgOBcbv_VuUOnBJEq4ou3Z43DmUgkE-J_rBXuLUT8sw-O44mbHNd2S99SopmT84Uu21BFePiM7Eqmg";
 
         public RedditClientService()
         {
@@ -67,7 +66,7 @@ namespace ServiceLayer.Implementation
                 //DateTime start = DateTime.Now;
                 //while (start.AddMinutes(1) > DateTime.Now) { }
 
-                //// Stop monitoring new posts.  --Kris
+                //// Stop monitoring new posts.  
                 //subName.Posts.MonitorNew();  // Toggle off.
                 //subName.Posts.NewUpdated -= C_NewPostsUpdated;
 
@@ -83,7 +82,7 @@ namespace ServiceLayer.Implementation
 
             catch (Exception ex)
             {
-                throw ex;
+                throw ex.InnerException;
             }
         }
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abhin\\CODING\\RedditNEW\\AuthenticationTokenRetriever\\AuthenticationTokenRetriever.csproj": {}
+    "C:\\Users\\abhin\\CODING\\RedditNew\\AuthenticationTokenRetriever\\AuthenticationTokenRetriever.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abhin\\CODING\\RedditNEW\\AuthenticationTokenRetriever\\AuthenticationTokenRetriever.csproj": {
+    "C:\\Users\\abhin\\CODING\\RedditNew\\AuthenticationTokenRetriever\\AuthenticationTokenRetriever.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abhin\\CODING\\RedditNEW\\AuthenticationTokenRetriever\\AuthenticationTokenRetriever.csproj",
+        "projectUniqueName": "C:\\Users\\abhin\\CODING\\RedditNew\\AuthenticationTokenRetriever\\AuthenticationTokenRetriever.csproj",
         "projectName": "AuthenticationTokenRetriever",
-        "projectPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\AuthenticationTokenRetriever\\AuthenticationTokenRetriever.csproj",
+        "projectPath": "C:\\Users\\abhin\\CODING\\RedditNew\\AuthenticationTokenRetriever\\AuthenticationTokenRetriever.csproj",
         "packagesPath": "C:\\Users\\abhin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\AuthenticationTokenRetriever\\obj\\",
+        "outputPath": "C:\\Users\\abhin\\CODING\\RedditNew\\AuthenticationTokenRetriever\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -52,6 +52,10 @@
             "Reddit.AuthTokenRetrieverLib": {
               "target": "Package",
               "version": "[1.5.2, )"
+            },
+            "System.Reflection.Metadata": {
+              "target": "Package",
+              "version": "[7.0.2, )"
             }
           },
           "imports": [

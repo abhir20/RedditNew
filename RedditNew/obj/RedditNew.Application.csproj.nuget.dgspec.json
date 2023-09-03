@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\RedditNew.Application.csproj": {}
+    "C:\\Users\\abhin\\CODING\\RedditNew\\RedditNew\\RedditNew.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\RedditNew.Application.csproj": {
+    "C:\\Users\\abhin\\CODING\\RedditNew\\RedditNew\\RedditNew.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\RedditNew.Application.csproj",
+        "projectUniqueName": "C:\\Users\\abhin\\CODING\\RedditNew\\RedditNew\\RedditNew.Application.csproj",
         "projectName": "RedditNew.Application",
-        "projectPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\RedditNew.Application.csproj",
+        "projectPath": "C:\\Users\\abhin\\CODING\\RedditNew\\RedditNew\\RedditNew.Application.csproj",
         "packagesPath": "C:\\Users\\abhin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\RedditNew\\obj\\",
+        "outputPath": "C:\\Users\\abhin\\CODING\\RedditNew\\RedditNew\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\abhin\\CODING\\RedditNEW\\ServiceLayer\\RedditService.csproj": {
-                "projectPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\ServiceLayer\\RedditService.csproj"
+              "C:\\Users\\abhin\\CODING\\RedditNew\\ServiceLayer\\RedditService.csproj": {
+                "projectPath": "C:\\Users\\abhin\\CODING\\RedditNew\\ServiceLayer\\RedditService.csproj"
               }
             }
           }
@@ -76,6 +76,30 @@
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.Reflection": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection.Metadata": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.0, )"
             }
           },
           "imports": [
@@ -101,14 +125,14 @@
         }
       }
     },
-    "C:\\Users\\abhin\\CODING\\RedditNEW\\ServiceLayer\\RedditService.csproj": {
+    "C:\\Users\\abhin\\CODING\\RedditNew\\ServiceLayer\\RedditService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abhin\\CODING\\RedditNEW\\ServiceLayer\\RedditService.csproj",
+        "projectUniqueName": "C:\\Users\\abhin\\CODING\\RedditNew\\ServiceLayer\\RedditService.csproj",
         "projectName": "RedditService",
-        "projectPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\ServiceLayer\\RedditService.csproj",
+        "projectPath": "C:\\Users\\abhin\\CODING\\RedditNew\\ServiceLayer\\RedditService.csproj",
         "packagesPath": "C:\\Users\\abhin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abhin\\CODING\\RedditNEW\\ServiceLayer\\obj\\",
+        "outputPath": "C:\\Users\\abhin\\CODING\\RedditNew\\ServiceLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -149,6 +173,14 @@
             "Reddit.AuthTokenRetrieverLib": {
               "target": "Package",
               "version": "[1.5.2, )"
+            },
+            "System.Reflection": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection.Metadata": {
+              "target": "Package",
+              "version": "[7.0.2, )"
             }
           },
           "imports": [

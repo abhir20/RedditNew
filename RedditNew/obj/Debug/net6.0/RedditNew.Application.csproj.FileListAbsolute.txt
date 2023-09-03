@@ -1,6 +1,4 @@
 C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net6.0\RedditNew.Application.csproj.AssemblyReference.cache
-C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net6.0\RedditNew.Application.Reddittests.My_Project.Resources.resources
-C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net6.0\RedditNew.Application.csproj.GenerateResource.cache
 C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net6.0\RedditNew.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net6.0\RedditNew.Application.AssemblyInfoInputs.cache
 C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net6.0\RedditNew.Application.AssemblyInfo.cs
@@ -9,7 +7,6 @@ C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net6.0\RedditNew.Application
 C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net6.0\RedditNew.Application.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net6.0\RedditNew.Application.RazorAssemblyInfo.cache
 C:\Users\abhin\CODING\RedditNEW\RedditNew\obj\Debug\net6.0\RedditNew.Application.RazorAssemblyInfo.cs
-C:\Users\abhin\CODING\RedditNEW\RedditNew\bin\Debug\net6.0\Reddittests\packages.config
 C:\Users\abhin\CODING\RedditNEW\RedditNew\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\abhin\CODING\RedditNEW\RedditNew\bin\Debug\net6.0\appsettings.json
 C:\Users\abhin\CODING\RedditNEW\RedditNew\bin\Debug\net6.0\RedditNew.Application.staticwebassets.runtime.json
@@ -47,3 +44,13 @@ C:\Users\abhin\CODING\RedditNEW\RedditNew\bin\Debug\net6.0\RedditService.runtime
 C:\Users\abhin\CODING\RedditNEW\RedditNew\bin\Debug\net6.0\RedditService.exe
 C:\Users\abhin\CODING\RedditNEW\RedditNew\bin\Debug\net6.0\RedditService.dll
 C:\Users\abhin\CODING\RedditNEW\RedditNew\bin\Debug\net6.0\RedditService.pdb
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net6.0\CoverletSourceRootsMapping_RedditNew.Application
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net6.0\xunit.abstractions.dll
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net6.0\xunit.assert.dll
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net6.0\xunit.core.dll
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net6.0\xunit.execution.dotnet.dll
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net6.0\System.Collections.Immutable.dll
+C:\Users\abhin\CODING\RedditNew\RedditNew\bin\Debug\net6.0\System.Reflection.Metadata.dll

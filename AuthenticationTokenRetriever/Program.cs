@@ -32,7 +32,7 @@ namespace AuthTokenRetriever
             string appId = (args.Length >= 2 ? args[1] : null);
             string appSecret = (args.Length >= 3 ? args[2] : null);
 
-            // If appId and appSecret are unspecified, use guided mode.  --Kris
+            // If appId and appSecret are unspecified, use guided mode.  
             if (string.IsNullOrWhiteSpace(appId) && string.IsNullOrWhiteSpace(appSecret))
             {
                 if (string.IsNullOrWhiteSpace(appId))
@@ -54,21 +54,21 @@ namespace AuthTokenRetriever
                 Console.Clear();
             }
 
-            // Create a new instance of the auth token retrieval library.  --Kris
+            // Create a new instance of the auth token retrieval library. 
             AuthTokenRetrieverLib authTokenRetrieverLib = new AuthTokenRetrieverLib(appId, port, appSecret: appSecret);
-            //AuthTokenRetrieverLib authTokenRetrieverLib = new AuthTokenRetrieverLib(appId, appSecret, port); // Deprecated as of 5.0.1.  --Kris
+            //AuthTokenRetrieverLib authTokenRetrieverLib = new AuthTokenRetrieverLib(appId, appSecret, port); 
 
             authTokenRetrieverLib.AuthSuccess += C_AuthSuccess;
 
-            // Start the callback listener.  --Kris
+            // Start the callback listener.
             authTokenRetrieverLib.AwaitCallback(true);
 
-            // Open the browser to the Reddit authentication page.  Once the user clicks "accept", Reddit will redirect the browser to localhost:8080, where AwaitCallback will take over.  --Kris
+            // Open the browser to the Reddit authentication page.  Once the user clicks "accept", Reddit will redirect the browser to localhost:8080, where AwaitCallback will take over.
             OpenBrowser(authTokenRetrieverLib.AuthURL());
 
             Console.WriteLine("Awaiting Reddit callback -OR- press any key to abort....");
 
-            Console.ReadKey();  // Hit any key to exit.  --Kris
+            Console.ReadKey();  // Hit any key to exit.  
 
             authTokenRetrieverLib.StopListening();
 
@@ -105,7 +105,7 @@ namespace AuthTokenRetriever
             }
         }
 
-        // Consume the success event when the token is retrieved.  --Kris
+        // Consume the success event when the token is retrieved. 
         public static void C_AuthSuccess(object sender, AuthSuccessEventArgs e)
         {
             Console.Clear();
