@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Reddit;
+using ServiceLayer.Implementation;
+using System;
 
 namespace ServiceLayer
 {
@@ -7,6 +9,10 @@ namespace ServiceLayer
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine(args);
+
+
         }
+
     }
 }

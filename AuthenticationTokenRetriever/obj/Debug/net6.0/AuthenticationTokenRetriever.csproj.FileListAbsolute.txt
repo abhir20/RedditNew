@@ -19,3 +19,5 @@ C:\Users\abhin\CODING\RedditNEW\AuthenticationTokenRetriever\obj\Debug\net6.0\re
 C:\Users\abhin\CODING\RedditNEW\AuthenticationTokenRetriever\obj\Debug\net6.0\AuthenticationTokenRetriever.pdb
 C:\Users\abhin\CODING\RedditNEW\AuthenticationTokenRetriever\obj\Debug\net6.0\AuthenticationTokenRetriever.genruntimeconfig.cache
 C:\Users\abhin\CODING\RedditNEW\AuthenticationTokenRetriever\obj\Debug\net6.0\ref\AuthenticationTokenRetriever.dll
+C:\Users\abhin\CODING\RedditNew\AuthenticationTokenRetriever\bin\Debug\net6.0\System.Collections.Immutable.dll
+C:\Users\abhin\CODING\RedditNew\AuthenticationTokenRetriever\bin\Debug\net6.0\System.Reflection.Metadata.dll
