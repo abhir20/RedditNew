@@ -1,7 +1,7 @@
 ﻿using Reddit.Controllers;
 using Reddit.Controllers.EventArgs;
 using Reddit.Things;
-using RedditNew.Application.Features.Response;
+using RedditService.Features.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
