@@ -1,6 +1,7 @@
 ﻿using Reddit;
 using Reddit.Controllers;
 using Reddit.Controllers.EventArgs;
+using Reddit.Things;
 using RedditService.Features.Response;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,8 @@ namespace ServiceLayer.Implementation
 
         static string appId = "77Vhm2YGgk703wHWBmX9ig";
         static string refreshToken = "760730588485-UfbKjs0RFOSqsyz-_rEG3iHHtgBROg";
-        static string accessToken = "eyJhbGciOiJSUzI1NiIsImtpZCI6IlNIQTI1NjpzS3dsMnlsV0VtMjVmcXhwTU40cWY4MXE2OWFFdWFyMnpLMUdhVGxjdWNZIiwidHlwIjoiSldUIn0.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjkzNzk0Njc5Ljc3NTA3NCwiaWF0IjoxNjkzNzA4Mjc5Ljc3NTA3NCwianRpIjoibnBKVi1uRVFXbFdTTkdqLXdydUNuV0hPNGNzM19nIiwiY2lkIjoiNzdWaG0yWUdnazcwM3dIV0JtWDlpZyIsImxpZCI6InQyXzlwaDNjbXJwIiwiYWlkIjoidDJfOXBoM2NtcnAiLCJsY2EiOjE2MTAwMzUzMTMwMDAsInNjcCI6ImVKeUtWdEpTaWdVRUFBRF9fd056QVNjIiwiZmxvIjo5fQ.UHpxfsGcSHnGphYftyAEIgr7ebRDcgEje0JSkb-ba-Iu88isAFq4qlkcf3ecbWLD1b-0kFtSac82i-0fON4s6UhSM3woTHb2p5-boxQUghFPkQ9_3MZyRckS2xYlNYQXVpotuWfW9d2edzm3p14jwcBr0_rUPTES2XYTIAilMF6xaJJKxQgbPYOPlsxNM5KtJhMVz5acdiAAHeP6a_s-DZ_N5rsUrAW0ZtmnsHZDsLZ1-jjaF5I8BSz407UIU1b49f4WQSO4TgOBcbv_VuUOnBJEq4ou3Z43DmUgkE-J_rBXuLUT8sw-O44mbHNd2S99SopmT84Uu21BFePiM7Eqmg";
+        
+        static string accessToken = "eyJhbGciOiJSUzI1NiIsImtpZCI6IlNIQTI1NjpzS3dsMnlsV0VtMjVmcXhwTU40cWY4MXE2OWFFdWFyMnpLMUdhVGxjdWNZIiwidHlwIjoiSldUIn0.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjkzODgxNjU4Ljg3MTY5OCwiaWF0IjoxNjkzNzk1MjU4Ljg3MTY5OCwianRpIjoiYjIwcVhBN09Oa0hOM05LTWNFQXVIeklzODFyaHdnIiwiY2lkIjoiNzdWaG0yWUdnazcwM3dIV0JtWDlpZyIsImxpZCI6InQyXzlwaDNjbXJwIiwiYWlkIjoidDJfOXBoM2NtcnAiLCJsY2EiOjE2MTAwMzUzMTMwMDAsInNjcCI6ImVKeUtWdEpTaWdVRUFBRF9fd056QVNjIiwiZmxvIjo5fQ.kKfiEx7LRNZK5xsOCt2tPeKWEZDJGdqlrtzzFrmPvgRBZV0owCIyCxVouI6_OtwM7oL47AG3IM6puCB7JHZQChTle9YZlZKLpvQ5TEbWBkveZWfGLKEhZNOT-dO6Y3pqwDdcZBvRoSo2TZi5MbT9y48-Ldd1QeBaLWbnkV89RVWIHNA-iKVyYqxIJ9vGhmgLp5SylycotZvuUm8_rqUN0NINuaJC0QUfgt-565etoibMoHcR98rdoXOWNzJeJbJVoE7eqtPFaFewyRaaxXfQd8qSbmdTGk3Xc-O0D8zWAiquXGWhrusGGLO14D7Dt6vSUtsMtvq8jTjzEfe6JZV3kw";
 
         public RedditClientService()
         {
@@ -84,6 +86,44 @@ namespace ServiceLayer.Implementation
             {
                 throw ex.InnerException;
             }
+        }
+
+        public async Task GetUsersWithMostPosts(string name)
+        {
+            var userPostCounts = new Dictionary<string, int>();
+
+            Reddit.Controllers.Subreddit subName = _reddit.Subreddit(name);
+
+            var topPosts = subName.Posts.Top.ToList();
+
+            await Task.Run(() =>
+            {
+                foreach (var post in topPosts)
+                {
+                    var author = post.Author;
+                    if (!string.IsNullOrEmpty(author))
+                    {
+                        if (userPostCounts.ContainsKey(author))
+                        {
+                            userPostCounts[author]++;
+                        }
+                        else
+                        {
+                            userPostCounts[author] = 1;
+                        }
+                    }
+                }
+
+            });
+
+            // Find the user with the most posts
+            var userWithMostPosts = userPostCounts.OrderByDescending(x => x.Value).FirstOrDefault();
+                if (userWithMostPosts.Key != null)
+                {
+                   // return userWithMostPosts;
+                     Console.WriteLine($"User with the most posts on /r/{name}: {userWithMostPosts.Key} ({userWithMostPosts.Value} posts)");
+                }
+
         }
     }
 }

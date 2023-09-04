@@ -24,18 +24,20 @@ namespace RedditNew.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+
         public IActionResult Index()
         {
             List<PostsModel> postList = new List<PostsModel>();
-            var response = _client.GetAsync(_client.BaseAddress + "/posts/Get");
+            var response = _client.GetAsync(_client.BaseAddress + "/posts/GetAllTopPosts");
 
             return View(response);
         }
 
         public IActionResult Privacy()
         {
-            return View();
+            List<PostsModel> postList = new List<PostsModel>();
+            var response = _client.GetAsync(_client.BaseAddress + "/posts/GetAllTopPosts");
+            return View(response);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
