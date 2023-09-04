@@ -21,7 +21,7 @@ namespace RedditNew.Controllers.Tests
             RedditClientService redditCliemtService = new RedditClientService();
             var controller = new PostsController(redditCliemtService);
 
-            var result = await controller.GetAll("funny",default);
+            var result = await controller.GetAllTopPosts("funny",default);
             Assert.IsInstanceOfType(result, typeof(Microsoft.AspNetCore.Mvc.OkObjectResult));
         }
 

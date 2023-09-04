@@ -32,11 +32,19 @@ namespace RedditNew.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult> GetAll(string name , CancellationToken cancellationToken)
+        public async Task<ActionResult> GetAllTopPosts(string name , CancellationToken cancellationToken)
         {
             string subredditName = name;
             var response = await _redditClientService.GetTopPosts(subredditName);
             return Ok(response);
+        }
+
+        [HttpGet("User")]
+        public async Task GetUsersWithTopPosts(string name, CancellationToken cancellationToken)
+        {
+            string subredditName = name;
+            await _redditClientService.GetUsersWithMostPosts(subredditName);
+            //return Ok(response);
         }
 
 

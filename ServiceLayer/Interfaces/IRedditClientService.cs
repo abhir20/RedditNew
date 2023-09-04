@@ -15,6 +15,8 @@ namespace ServiceLayer
     {
         public Task<IList<PostResponse>> GetTopPosts(string name);
 
+        public Task GetUsersWithMostPosts(string name);
+
         //Task<Post> GetByEmail(string email, CancellationToken cancellationToken);
 
 

@@ -5,5 +5,23 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="redditcharts.com">building Reddit Listener</a>.</p>
+    <p>Learn about <a href="www.redditcharts.com">building Reddit Listener</a>.</p>
 </div>
+
+@* @model List<PostsModel>
+
+<h2>Top Posts</h2>
+
+<table class="table">Re
+   
+    <tbody>
+        @foreach (var post in Model)
+        {
+            <tr>
+                <td>@post.Fullname</td>
+                <td>@post.Subreddit</td>
+                <td>@post.UpVotes</td>
+            </tr>
+        }
+    </tbody>
+</table> *@
