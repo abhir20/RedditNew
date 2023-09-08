@@ -4,6 +4,84 @@
     "C:\\Users\\abhin\\CODING\\RedditNew\\RedditNew\\RedditNew.Application.csproj": {}
   },
   "projects": {
+    "C:\\Users\\abhin\\CODING\\RedditNew\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abhin\\CODING\\RedditNew\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\abhin\\CODING\\RedditNew\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\abhin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abhin\\CODING\\RedditNew\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abhin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Reddit.AuthTokenRetrieverLib": {
+              "target": "Package",
+              "version": "[1.5.2, )"
+            },
+            "System.Reflection.Metadata": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\abhin\\CODING\\RedditNew\\RedditNew\\RedditNew.Application.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -33,6 +111,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\abhin\\CODING\\RedditNew\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\abhin\\CODING\\RedditNew\\DAL\\DAL.csproj"
+              },
               "C:\\Users\\abhin\\CODING\\RedditNew\\ServiceLayer\\RedditService.csproj": {
                 "projectPath": "C:\\Users\\abhin\\CODING\\RedditNew\\ServiceLayer\\RedditService.csproj"
               }
@@ -49,6 +130,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
             "NUnit": {
               "target": "Package",
               "version": "[3.13.3, )"
@@ -76,6 +169,10 @@
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.3, )"
             },
             "System.Reflection": {
               "target": "Package",
@@ -166,6 +263,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
             "Reddit": {
               "target": "Package",
               "version": "[1.5.2, )"

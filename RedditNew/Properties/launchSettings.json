@@ -1,12 +1,4 @@
-﻿{
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:52142",
-      "sslPort": 44369
-    }
-  },
+{
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
@@ -17,12 +9,23 @@
     },
     "RedditNew": {
       "commandName": "Project",
-      "dotnetRunMessages": "true",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "app_Id": "cN80mTCrErGtk1M4oJQk-g",
+        "refresh_token": "760730588485-Rf1yWtw1FHG0TkGsn6f5EPM4uopg9A",
+        "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IlNIQTI1NjpzS3dsMnlsV0VtMjVmcXhwTU40cWY4MXE2OWFFdWFyMnpLMUdhVGxjdWNZIiwidHlwIjoiSldUIn0.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjk0Mjg3MzQxLjI4NzczNywiaWF0IjoxNjk0MjAwOTQxLjI4NzczNywianRpIjoiaV92UDl3RkV6dzV2MG93M1ZMQkRxZmYwVkVWZTh3IiwiY2lkIjoiNzdWaG0yWUdnazcwM3dIV0JtWDlpZyIsImxpZCI6InQyXzlwaDNjbXJwIiwiYWlkIjoidDJfOXBoM2NtcnAiLCJsY2EiOjE2MTAwMzUzMTMwMDAsInNjcCI6ImVKeUtWdEpTaWdVRUFBRF9fd056QVNjIiwiZmxvIjo5fQ.Wk3oOhf2VT40SPbYYGu7c6UtE5AmqWWTbYhGLl1M1ZigVXKGqtnw3C-2dhgY4j7ZKhN0gqftyUXQWby_ga9wu3aI1HYI1s8fQOn-pX4R8qt3dpKv9tkjsGSadW-GchrV29yXbmrUQAuBY0SAxj1E7QRRQBxbs3Mmoo_pvb7jFzd6eFRKMpoEyzKMbNP1i8FXavWU-eqbAYuQct4WCda6d84AWn7tGeTTzGPrxtrdmVm8Zm3pjur6tl6V-igsrmIZrt-c23UzTPrp5mQjcT-7n5khSblpp4H3hTGlQtEIN2stjCfIy59bVM-egs1GQ0iI7KSet3vmP4wRjnlrxBi5tw"
+      },
+      "dotnetRunMessages": "true",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:52142",
+      "sslPort": 44369
     }
   }
 }

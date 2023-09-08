@@ -18,8 +18,8 @@ namespace RedditNew.Controllers.Tests
         [TestMethod]
         public async Task GetAllTopPosts_ShouldReturnAllTopPosts()
         {
-            RedditClientService redditCliemtService = new RedditClientService();
-            var controller = new PostsController(redditCliemtService);
+            RedditClientService redditClienService = new RedditClientService();
+            var controller = new PostsController(redditClienService);
 
             var result = await controller.GetAllTopPosts("funny",default);
             Assert.IsInstanceOfType(result, typeof(Microsoft.AspNetCore.Mvc.OkObjectResult));

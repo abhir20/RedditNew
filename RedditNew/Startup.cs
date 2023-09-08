@@ -1,9 +1,13 @@
+using DAL.DBContext;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Reddit;
 using ServiceLayer;
@@ -11,6 +15,7 @@ using ServiceLayer.Implementation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace RedditNew
@@ -27,9 +32,34 @@ namespace RedditNew
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
+            var jwtSettings = Configuration.GetSection("JwtSettings");
+            var key = Encoding.ASCII.GetBytes(jwtSettings["SecretKey"]);
 
-            services.AddTransient<IRedditClientService, RedditClientService>();
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                options.RequireHttpsMetadata = false; // Only set to true in production
+                options.SaveToken = true;
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false, // Set to true if you want to validate the issuer
+                    ValidateAudience = false, // Set to true if you want to validate the audience
+                };
+            });
+
+            services.AddScoped<IRedditClientService, RedditClientService>();
+
+           // services.AddTransient<IPostRepository, PostRepository>();
+
+            services.AddDbContext<AppDBContext>(options =>
+    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
 
             services.AddServerSideBlazor();
 
@@ -56,6 +86,8 @@ namespace RedditNew
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseSwagger();
 
@@ -73,6 +105,7 @@ namespace RedditNew
 
             app.UseAuthorization();
 
+           
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
