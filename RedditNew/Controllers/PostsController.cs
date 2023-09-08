@@ -1,7 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DAL;
+using DAL.Entities;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Reddit;
 using Reddit.Controllers;
 using Reddit.Controllers.EventArgs;
+using RedditNew.Application.Features.Request;
 using RedditNew.Models;
 using ServiceLayer;
 using ServiceLayer.Implementation;
@@ -18,18 +22,20 @@ namespace RedditNew.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PostsController : ControllerBase
+    public class PostsController :  Controller
     {
 
 
         private readonly IRedditClientService _redditClientService = null;
-        //new RedditClient(appId: appId, refreshToken: refreshToken, accessToken: accessToken);
-
-       
+        //private readonly IRepository<Posts> _postRepository; -- Need to be added when we scale up the application to use database.
+        
         public PostsController(IRedditClientService redditClientService)
         {
-            _redditClientService = new RedditClientService();
+            _redditClientService = redditClientService;
+            //_postRepository = postRepository; -- Need to be used when the IRepository is injected
         }
+
+
 
         [HttpGet]
         public async Task<ActionResult> GetAllTopPosts(string name , CancellationToken cancellationToken)
@@ -40,92 +46,16 @@ namespace RedditNew.Controllers
         }
 
         [HttpGet("User")]
-        public async Task GetUsersWithTopPosts(string name, CancellationToken cancellationToken)
+        public async Task<ActionResult> GetUsersWithTopPosts(string name, CancellationToken cancellationToken)
         {
             string subredditName = name;
-            await _redditClientService.GetUsersWithMostPosts(subredditName);
-            //return Ok(response);
+            var response = await _redditClientService.GetUsersWithMostPosts(subredditName);
+            return Ok(response);
+            
         }
 
 
-        //private IList<> GetTopPosts(Subreddit subName)
-        //{
-
-        //}
-
-        //public static async void callMethod(string name)
-        //{
-
-        //    Subreddit subName = reddit.Subreddit(name);
-
-        //    var topPosts = subName.Posts.Top.ToList();
-        //    IList<PostsModel> topPostResponse = new List<PostsModel>();
-        //    Console.WriteLine("Top Posts with the high UpVotes :" + subName.Posts.Top.ToList());
-
-        //    await Task.Run(() =>
-        //    {
-        //        foreach (var post in topPosts)
-        //        {
-        //            PostsModel tpPost = new PostsModel();
-        //            tpPost.Fullname = post.Fullname;
-        //            tpPost.UpVotes = post.UpVotes;
-        //            tpPost.Author = post.Author;
-        //            topPostResponse.Add(tpPost);
-
-        //        }
-        //    });
-
-
-        //}
-
-
-        //[HttpGet("monitor")]
-        //public async void MonitorPosts(string name)
-        //{
-        //    Subreddit subName = reddit.Subreddit(name);
-        //    subName.Posts.GetNew();
-
-        //    Console.WriteLine("Monitoring subreddit for new posts....");
-
-        //    subName.Posts.NewUpdated += C_NewPostsUpdated;
-        //    subName.Posts.MonitorNew();  // Toggle on.
-
-        //    DateTime start = DateTime.Now;
-        //    while (start.AddMinutes(1) > DateTime.Now) { }
-
-        //    // Stop monitoring new posts.  --Kris
-        //    subName.Posts.MonitorNew();  // Toggle off.
-        //    subName.Posts.NewUpdated -= C_NewPostsUpdated;
-
-        //}
-
-        /// <summary>
-        /// Custom event handler for handling monitored new posts as they come in.
-        /// See Reddit.NETTests for more complex examples.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        public static void C_NewPostsUpdated(object sender, PostsUpdateEventArgs e)
-        {
-            foreach (Post post in e.Added)
-            {
-                Console.WriteLine("[" + post.Subreddit + "] New Post by " + post.Author + ": " + post.Title);
-            }
-        }
-
-        /// <summary>
-        /// Custom event handler for handling monitored new comments as they come in.
-        /// See Reddit.NETTests for more complex examples.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        public static void C_NewCommentsUpdated(object sender, CommentsUpdateEventArgs e)
-        {
-            foreach (Comment comment in e.Added)
-            {
-                Console.WriteLine("[" + comment.Subreddit + "/" + comment.Root.Title + "] New Comment by " + comment.Author + ": " + comment.Body);
-            }
-        }
+     
     }
 
 }

@@ -33,10 +33,17 @@ namespace RedditNew.Controllers
             return View(response);
         }
 
-        public IActionResult Privacy()
+        public IActionResult SubredditPosts()
         {
             List<PostsModel> postList = new List<PostsModel>();
             var response = _client.GetAsync(_client.BaseAddress + "/posts/GetAllTopPosts");
+
+            return View(response);
+        }
+        public IActionResult Privacy()
+        {
+            List<PostsModel> postList = new List<PostsModel>();
+            var response = _client.GetAsync(_client.BaseAddress + "/posts/GetUsersWithTopPosts");
             return View(response);
         }
 

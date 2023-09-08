@@ -1,18 +1,31 @@
-﻿
+﻿@*@model IEnumerable<PostsModel> @**@
 @{
     ViewData["Title"] = "Top Subreddits";
 }
-
+<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+    <ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Top SubReddit</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Users</a>
+        </li>
+    </ul>
+</div>
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="www.redditcharts.com">building Reddit Listener</a>.</p>
+    <h1 class="display-4">Welcome</h1> 
+    <p>Building Reddit Listener</p>
 </div>
 
-@* @model List<PostsModel>
+<div>
+
+</div>
+ 
+@*
 
 <h2>Top Posts</h2>
 
-<table class="table">Re
+<table class="table">
    
     <tbody>
         @foreach (var post in Model)
@@ -24,4 +37,4 @@
             </tr>
         }
     </tbody>
-</table> *@
+</table>  *@

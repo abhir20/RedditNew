@@ -10,6 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.10" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="2.2.10" />
     <PackageReference Include="MSTest.TestFramework" Version="2.2.10" />
@@ -19,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RedditNew\RedditNew.Application.csproj" />
+    <ProjectReference Include="..\ServiceLayer\RedditService.csproj" />
   </ItemGroup>
 
 </Project>
