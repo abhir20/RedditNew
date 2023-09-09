@@ -13,3 +13,5 @@ Set environment variables in RedditNew.Application with the fetched refresh_toke
 set RedditNew.Application layer as startup project and run the solution.
 
 Go to localhost:port/Swagger/Index.html - Test the api here.
+
+Building UI in progress
