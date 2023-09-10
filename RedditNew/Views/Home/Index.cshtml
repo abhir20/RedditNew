@@ -2,21 +2,38 @@
 @{
     ViewData["Title"] = "Top Subreddits";
 }
-<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-    <ul class="navbar-nav flex-grow-1">
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Top SubReddit</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Users</a>
-        </li>
-    </ul>
-</div>
+
+@* @if (User.Identity.IsAuthenticated)
+{ *@
+<head>
+    <style>
+        #navBarSearchForm input[type=text] {
+            width: 430px !important;
+        }
+    </style>
+    <!-- MDB -->
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+</head>
+
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1> 
+    <h1 class="display-4">Welcome</h1>
     <p>Building Reddit Listener</p>
 </div>
 
+<form class="form-inline">
+    <input class="form-control mr-sm-2 navBarSearchForm" type="search" placeholder="Search Subreddit" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" asp-area="" asp-controller="Home" asp-action="SubredditPosts">Top Subreddit Posts</button>
+    <button class="btn btn-outline-success my-2 my-sm-0 " type="submit" asp-area="" asp-controller="Home" asp-action="Privacy">Users with most posts</button>
+</form>
+
+<canvas data-mdb-chart="line"
+        data-mdb-dataset-label="Traffic"
+        data-mdb-labels="['Monday', 'Tuesday' , 'Wednesday' , 'Thursday' , 'Friday' , 'Saturday' , 'Sunday ']"
+        data-mdb-dataset-data="[2112, 2343, 2545, 3423, 2365, 1985, 987]"></canvas>
+
+@* } *@
 <div>
 
 </div>

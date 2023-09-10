@@ -1,5 +1,6 @@
 ﻿using DAL;
 using DAL.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Reddit;
@@ -20,6 +21,7 @@ using System.Threading.Tasks;
 
 namespace RedditNew.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class PostsController :  Controller
@@ -46,7 +48,7 @@ namespace RedditNew.Controllers
         }
 
         [HttpGet("User")]
-        public async Task<ActionResult> GetUsersWithTopPosts(string name, CancellationToken cancellationToken)
+        public async Task<ActionResult> GetUsersWithTopPosts(string name)
         {
             string subredditName = name;
             var response = await _redditClientService.GetUsersWithMostPosts(subredditName);

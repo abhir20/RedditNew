@@ -33,26 +33,25 @@ namespace RedditNew
         public void ConfigureServices(IServiceCollection services)
         {
             var jwtSettings = Configuration.GetSection("JwtSettings");
-            var key = Encoding.ASCII.GetBytes(jwtSettings["SecretKey"]);
+            var issuer = jwtSettings["Issuer"];
+            var audience = jwtSettings["Audience"];
+            var secretKey = jwtSettings["SecretKey"];
 
-            services.AddAuthentication(options =>
-            {
-                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            })
-            .AddJwtBearer(options =>
-            {
-                options.RequireHttpsMetadata = false; // Only set to true in production
-                options.SaveToken = true;
-                options.TokenValidationParameters = new TokenValidationParameters
+            // Configure JWT authentication
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
                 {
-                    ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(key),
-                    ValidateIssuer = false, // Set to true if you want to validate the issuer
-                    ValidateAudience = false, // Set to true if you want to validate the audience
-                };
-            });
-
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = issuer,
+                        ValidAudience = audience,
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey)),
+                    };
+                });
             services.AddScoped<IRedditClientService, RedditClientService>();
 
            // services.AddTransient<IPostRepository, PostRepository>();
