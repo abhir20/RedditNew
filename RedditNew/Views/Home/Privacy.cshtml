@@ -5,7 +5,7 @@
 
 <p>Use this page to detail your site's privacy policy.</p>
 <head>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
 </head>
 
 <body>
@@ -19,7 +19,8 @@
                 // Make an AJAX request to your API controller method
                 $.ajax({
                     type: "GET",
-                    url: "/api/posts/GetUsersWithTopPosts", // Replace with your API route
+                    url: "/api/posts/GetUsersWithTopPosts",
+                    data: "name=" + "funny",
                     success: function (data) {
                         // Handle the API response here
                         console.log(data);
@@ -33,6 +34,4 @@
         });
     </script>
 </body>
-
-
 
